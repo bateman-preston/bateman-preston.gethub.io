@@ -18,7 +18,8 @@ footer{
 
 }
 img{
-    position: absolute;
+    float: right;
+    width: 200px;
 
 }
 .footertext{
