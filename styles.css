@@ -26,6 +26,7 @@ img{
     color: white;
     padding-left: 15px;
 }
-hr{
-    float: center;
+
+main{
+    border-top 3px solid black;
 }
