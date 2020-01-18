@@ -5,7 +5,7 @@ h1,h2, h3, h4, h5, h6 {
     padding: 15px
 }
 header{
-    background-color: #4D5C92;
+    background-color: rgb(100, 37, 119);
     border-radius: 20px;
     padding: 1em 1em;
     padding-bottom: 5px;
@@ -19,7 +19,7 @@ footer{
 
 }
 img{
-    float: right;
+    float: left;
     width: 200px;
 
 }
