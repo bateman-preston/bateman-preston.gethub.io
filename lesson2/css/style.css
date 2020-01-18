@@ -43,7 +43,7 @@ hr{
     flex-flow: row wrap;
 }
 #row2{
-    background-color: lightskyblue;
+    background-color: #D3D3D3;
 }
 .left-column, .right-column, .middle-column{
     width: 30%;
