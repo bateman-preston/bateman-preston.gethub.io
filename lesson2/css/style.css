@@ -20,6 +20,7 @@ header{
 }
 section{
     padding: 1em;
+    padding-top: 20px;
 }
 footer{
     background-color: #4D5C92;
