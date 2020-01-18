@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Graduate|PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 h1, h6{
     color: white;
     font-family: 'Graduate';
-    padding: 15px
+    padding: 15px;
 }
 h6{
     float: right;
@@ -33,7 +34,8 @@ img{
 
 }
 p{
-    padding: 15px
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 .footertext{
     color: white;
