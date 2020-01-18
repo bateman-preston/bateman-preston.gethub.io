@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Graduate|PT+Sans&display=swap');
-h1,h2, h3, h4, h5, h6 {
+h1{
     color: white;
     font-family: 'Graduate';
     padding: 15px
+}
+h2, h3, h4, h5, h6{
+    color: black;
+    font-family: 'Graduate';
+    padding: 15px;
 }
 header{
     background-color: rgb(100, 37, 119);
