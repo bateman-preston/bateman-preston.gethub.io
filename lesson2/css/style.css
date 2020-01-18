@@ -37,3 +37,11 @@ hr{
     display: flex;
     align-items: center;
 }
+#row1, #row2, #row3{
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+}
+#row2{
+    background-color: lightskyblue;
+}
