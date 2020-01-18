@@ -45,7 +45,7 @@ hr{
 #row2{
     background-color: lightskyblue;
 }
-.left-column, .right-column{
-    width: 47%;
+.left-column, .right-column, .middle-column{
+    width: 30%;
     flex: 1 0 15em;
 }
