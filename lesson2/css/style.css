@@ -29,7 +29,7 @@ footer{
 
 }
 img{
-    float: middle;
+    float: left;
     width: 200px;
 
 }
@@ -57,4 +57,10 @@ hr{
 .left-column, .right-column, .middle-column{
     width: 30%;
     flex: 1 0 15em;
+}
+.left-column{
+    padding-right: 2px;
+}
+.right-column{
+    padding-left: 2px;
 }
