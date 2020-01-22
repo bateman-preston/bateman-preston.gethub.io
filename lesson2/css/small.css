@@ -9,7 +9,7 @@ body {
 
 /* phone or baseline views */
 main {
-    max-width: 750px;
+    max-width: 767px;
     margin: auto;
 }
 
@@ -44,5 +44,5 @@ section {
     background-color: #87A7AB;
 }
 img {
-    max-width: 95%;
+    max-width: 100%;
 }
