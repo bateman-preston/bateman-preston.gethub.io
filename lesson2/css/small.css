@@ -46,3 +46,7 @@ section {
 img {
     max-width: 100%;
 }
+footer p{
+    color: white;
+    font-size: x-small;
+}
