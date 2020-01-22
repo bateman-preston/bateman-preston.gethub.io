@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Graduate|PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+/* phone or baseline views */
+main {
+    max-width: 750px;
+    margin: auto;
+}
+
+header, footer {
+    background-color: #125496;
+    display: flexbox;
+    align-items: center;
+    border-radius: 10px, 10px, 10px, 10px;
+    text-align: center;
+    max-width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.75em;
+}
+
+h1, h4, h5 {
+    color: white;
+    font-family: 'Graduate', cursive;
+}
+
+h2, h3 {
+    color: black;
+    font-family: 'Graduate', cursive;
+}
+
+section {
+    margin: 1em;
+    padding: 0 1rem;
+    background-color: #87A7AB;
+}
+img {
+    max-width: 95%;
+}
