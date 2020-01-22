@@ -17,9 +17,10 @@ header, footer {
     background-color: #125496;
     display: flexbox;
     align-items: center;
-    border-radius: 10px, 10px, 10px, 10px;
+    border-radius: 5px 5px 30px 30px;
     text-align: center;
     max-width: 100%;
+    padding: 1;
 }
 
 main {
