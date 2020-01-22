@@ -50,3 +50,9 @@ footer p{
     color: white;
     font-size: small;
 }
+a {
+    color: #2E3333;
+}
+a:hover {
+    color: #120047;
+}
