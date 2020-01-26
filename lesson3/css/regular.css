@@ -8,8 +8,7 @@
     nav ul li {
         flex: 1 1 100%;
     }
-    nav a{
-        font-size: 1 rem;
+
     }
     picture {
         display: flex;
