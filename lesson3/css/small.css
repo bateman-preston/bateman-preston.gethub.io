@@ -2,10 +2,12 @@ body {
     font-family: 'Merriweather', serif;
     background-color: #b7afff;
     width: 80%;
+
 }
 header, footer {
     background-color: #0f0042;
     padding: 0.4em 1em;
+    align-items: center;
 }
 nav {
     background-color: white;
