@@ -37,6 +37,13 @@ nav a:hover {
 h1 {
     color: white;
     font-family: 'Play', sans-serif;
+    font-size: 300%;
+}
+h2 {
+    font-size: 200%;
+}
+h3, h5 {
+    font-family: 'Play', sans-serif;
 }
 main {
     padding: 3em;
@@ -44,13 +51,13 @@ main {
 }
 p {
     color: black;
+    font-size: 95%;
 }
-img {
-    max-width: 200px;
-}
+
 .logo {
     float: right;
     display: none;
+    max-width: 200px;
 }
 header {
     border-radius: 15px 15px 0px 0px;
@@ -64,4 +71,10 @@ footer {
 .footertext {
     color: white;
     text-size-adjust: .3rem;
+}
+.colors {
+    width: 100%;
+}
+picture {
+    display: none;
 }
