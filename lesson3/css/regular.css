@@ -1,0 +1,17 @@
+@media (min-width: 37em) {
+    nav {
+        flex-direction: row;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    nav a{
+        font-size: 1 rem;
+    }
+    picture {
+        display: block;
+    }
+}
