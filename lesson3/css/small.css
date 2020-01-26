@@ -28,7 +28,16 @@ nav li a {
 nav a:hover {
     background-color: #0f0042;
     color: white;
+    text-decoration: underline;
 }
 h1 {
     color: white;
+    font-family: 'Play', sans-serif;
+}
+main {
+    padding: 3em;
+    background-color: white;
+}
+p {
+    color: black;
 }
