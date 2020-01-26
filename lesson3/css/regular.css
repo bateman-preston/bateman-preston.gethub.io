@@ -20,4 +20,8 @@
     body {
         width: 90%;
     }
+    .body {
+        width: 85vw;
+        margin: auto;
+    }
 }
