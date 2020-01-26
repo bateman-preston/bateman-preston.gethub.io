@@ -52,3 +52,16 @@ img {
     float: right;
     display: none;
 }
+header {
+    border-radius: 15px 15px 0px 0px;
+    display:flex;
+    max-height: 200px;
+    
+}
+footer {
+    border-radius: 0 0 15px 15px;
+}
+.footertext {
+    color: white;
+    text-size-adjust: .3rem;
+}
