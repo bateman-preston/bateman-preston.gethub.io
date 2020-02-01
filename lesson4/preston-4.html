@@ -5,7 +5,8 @@
 <meta name="description" content="Siteplan for Weather Site Assignment">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Preston Bateman">
-<link href="https://fonts.googleapis.com/css?family=Merriweather|Play&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 
 <title>City of Preston Weather</title>
 
@@ -17,9 +18,13 @@
 </head>
 <body>
     <header>
-        <div><img src="images/whitelogo-transparent.png" alt="Workingman Weather Logo" class="logo"></div>
-        <div><h1>Workingman Weather</h1></div>
+        <div><img src="images/whitelogo-transparentfixed.png" alt="Workingman Weather Logo" class="logo"></div>
         <div></div>
+        <div>
+            <br>
+            <h3>Today's Date:</h3>
+            <h3 id='today'></h3>
+        </div>
     </header>
     <nav>
         <ul class="activenav">
@@ -49,7 +54,8 @@
         </section>
     </main>
     <footer>
-        <p>copyright 2020 | Preston Bateman | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a></p>
+        <p>copyright 2020 | Preston Bateman | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a><br>
+        <span id="spanLastUpdated" class="modified"></span></p>
     </footer>
 
 </body>

@@ -12,7 +12,19 @@
     .activenav li:first-child {
         display: none;
     }
-
+    header div:nth-child(2) {
+        display: none;
+    }
+    header div:nth-child(3) {
+        justify-content: flex-end;
+    }
+    header {
+        flex-direction: row;
+    }
+    body {
+        max-width: 95%;
+        margin: auto;
+    }
 
 
 
