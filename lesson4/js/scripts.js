@@ -1,10 +1,10 @@
 function toggleMenu() {
     document.querySelector(".activenav").classList.toggle("responding")
 }
-function lastUpdated() {
-    let d = new Date(document.lastModified);
-    document.getElementById("spanLastUpdated").innerHTML = "Last updated: " + d.toLocaleString();
-  }
+
+let d = new Date(document.lastModified);
+document.getElementById("lastUpdated").innerHTML = "Last updated: " + d.toLocaleString();
+
 
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
