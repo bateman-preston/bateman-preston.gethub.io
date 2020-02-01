@@ -31,7 +31,6 @@ header div:nth-child(3) {
     max-width: 280px;
 }
 section {
-    max-width: 760;
     display: block;
     background-color: white;
     margin: 10px auto;
@@ -53,7 +52,6 @@ footer p {
 nav {
     margin: 0 auto;
     background-color: #0f0042;
-    max-width: 760;
 }
 .activenav {
     list-style-type: none;
