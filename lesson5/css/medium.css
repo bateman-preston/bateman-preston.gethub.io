@@ -39,7 +39,7 @@
     .day{
         display: block;
         padding: 5px;
-        border-bottom: 1 solid black;
+        border-bottom: 1px solid black;
         background-color: #b7afff;
         font-weight: 600;
         font-size: 120%;
@@ -65,8 +65,8 @@
         padding: 15px;
     }
     .hero p {
-        margin-block-start: 1em;
-        margin-block-end: 1em;
+        margin-block-start: 1;
+        margin-block-end: 1;
     }
     .third div img {
         display: inline;
