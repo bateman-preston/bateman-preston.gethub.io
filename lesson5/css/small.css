@@ -3,6 +3,10 @@
 body{
     background-color: #b7afff;
 }
+main {
+    max-width: 98%;
+    margin: auto;
+}
 header {
     display: flex;
     flex-direction: column;
@@ -22,19 +26,42 @@ header div {
 .logo {
     max-width: 280px;
 }
-section {
+.first{
+    display: none;
+}
+.second {
     display: box;
     background-color: white;
     margin: 10px auto;
     padding: 15px;
 }
-section .first{
+.third {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.third div{
+    width: 50%;
+    padding-right: 5px;
+}
+.third div p {
+    margin-block-end: 0pt;
+    margin-block-start: 0pt;
+}
+.third div h3{
+    margin-block-start: 0pt;
+}
+.third div img {
     display: none;
 }
 .hero {
     position: relative;
     padding: 0px;
     max-width: 100%;
+}
+.hero p {
+    margin-block-start: 0pt;
+    margin-block-end: 0pt;
 }
 .hero img {
     max-width: 100%;
@@ -45,9 +72,10 @@ section .first{
     left: 50px;
     background-color: white;
     border: 1px solid black;
-    padding: 1.5rem;
+    padding: 1rem;
     box-shadow: 0 0 20px black;
     opacity: .75;
+    margin: 0pt;
 }
 footer {
     background-color: #0f0042;
@@ -109,17 +137,17 @@ h1, h5 {
 #banner {
     background-color: aliceblue;
     color: black;
-    padding: 2vw;
+    padding: 5vw;
     position: absolute;
     left: 5vw;
     top: 1vw;
-    width: 50vw;
+    width: 80vw;
     justify-content: left;
 }
 #banner span{
     float: left;
     margin-top: -1.5em;
-    margin-left: -1em;
+    margin-left: -.5em;
     justify-content: left;
     font-size: 75%;
 }
@@ -129,4 +157,11 @@ h1, h5 {
 .activenav .current a{
     color: #000000;
     background-color: #ffffff;
+}
+.second {
+    display: flex;
+    flex-direction: column;
+}
+.second img {
+    width: 100%;
 }

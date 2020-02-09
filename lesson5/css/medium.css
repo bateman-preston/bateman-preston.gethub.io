@@ -12,7 +12,12 @@
     .activenav li:first-child {
         display: none;
     }
-    body {
+    
+    header {
+        max-width: 100%;
+        margin: auto;
+    }
+    main {
         max-width: 95%;
         margin: auto;
     }
@@ -53,11 +58,33 @@
         color: #000000;
         background-color: #ffffff;
     }
-    section .first{
+    .first{
         display: block;
         background-color: white;
         margin: 10px auto;
         padding: 15px;
+    }
+    .hero p {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+    .third div img {
+        display: inline;
+        max-width: 75%;
+    }
+    .third {
+        display: flex;
+        flex-direction: row;
+        color: white;
+    }
+    #banner {
+        padding: 2vw;
+    }
+    .second {
+        flex-direction: row;
+    }
+    .second img {
+        width: 40%;
     }
 
 
