@@ -53,6 +53,12 @@
         color: #000000;
         background-color: #ffffff;
     }
+    section .first{
+        display: block;
+        background-color: white;
+        margin: 10px auto;
+        padding: 15px;
+    }
 
 
 

@@ -23,13 +23,32 @@ header div {
     max-width: 280px;
 }
 section {
-    display: block;
+    display: box;
     background-color: white;
     margin: 10px auto;
     padding: 15px;
-
 }
-
+section .first{
+    display: none;
+}
+.hero {
+    position: relative;
+    padding: 0px;
+    max-width: 100%;
+}
+.hero img {
+    max-width: 100%;
+}
+.stats {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 1.5rem;
+    box-shadow: 0 0 20px black;
+    opacity: .75;
+}
 footer {
     background-color: #0f0042;
     display: block;
