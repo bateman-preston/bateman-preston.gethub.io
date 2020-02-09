@@ -12,18 +12,46 @@
     .activenav li:first-child {
         display: none;
     }
-    header div:nth-child(2) {
-        display: none;
-    }
-    header div:nth-child(3) {
-        justify-content: flex-end;
-    }
-    header {
-        flex-direction: row;
-    }
     body {
         max-width: 95%;
         margin: auto;
+    }
+    .forecast{
+        display:flex;
+        flex-direction: row;
+    }
+    .col{
+      flex: 1 1 100%;  
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      background-color: #0f0042;
+      text-align: center;
+    }
+    .forecast div:last-child {
+        border-right: 1px solid black;
+    }
+    .day{
+        display: block;
+        padding: 5px;
+        border-bottom: 1 solid black;
+        background-color: #b7afff;
+        font-weight: 600;
+        font-size: 120%;
+    }
+    .forecast div img{
+        border-radius: 100px;
+        padding: 5px;
+    }
+    .descript{
+        display: block;
+        padding: 0 5px 5px;
+        color: white;
+        font-size: 80%;
+    }
+    .current{
+        color: #000000;
+        background-color: #ffffff;
     }
 
 

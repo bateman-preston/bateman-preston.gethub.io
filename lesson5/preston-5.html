@@ -20,19 +20,15 @@
 </head>
 <body>
     <header>
-        <div><img src="images/whitelogo-transparentfixed.png" alt="Workingman Weather Logo" class="logo"></div>
-        <div></div>
-        <div>
-            <br>
-            <h3>Today's Date:</h3>
-            <h3 id='today'></h3>
+        <div id="banner"><span id="close" onclick='document.getElementById("banner").style.display = "none"'> Close</span>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
         </div>
+        <div><img src="images/whitelogo-transparentfixed.png" alt="Workingman Weather Logo" class="logo"></div>
     </header>
     <nav>
         <ul class="activenav">
             <li><a class="dropdown" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Preston</a></li>
+            <li class="current"><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -47,6 +43,33 @@
         
         <section>
             <h2>Five Day Forecast</h2>
+            <div class="forecast">
+                <div class="col">
+                    <span class="day">Tuesday</span>
+                    <img src="images/forecast icons/thunderstorms.png" alt="thunderstorm icon">
+                    <span class="descript">Thunderstorms<br>High of 65</span>
+                </div>
+                <div class="col">
+                    <span class="day">Wednesday</span>
+                    <img src="images/forecast icons/rainy.png" alt="rainy icon">
+                    <span class="descript">Rain<br>High of 62</span>
+                </div>
+                <div class="col">
+                    <span class="day">Thursday</span>
+                    <img src="images/forecast icons/partlycloudy.png" alt="partly cloudy icon">
+                    <span class="descript">Partly Cloudy<br>High of 71</span>
+                </div>
+                <div class="col">
+                    <span class="day">Friday</span>
+                    <img src="images/forecast icons/sunny.png" alt="sunny icon">
+                    <span class="descript">Sunny<br>High of 79</span>
+                </div>
+                <div class="col">
+                    <span class="day">Saturday</span>
+                    <img src="images/forecast icons/partlycloudy.png" alt="partly cloudy icon">
+                    <span class="descript">Partly Cloudy<br>High of 84</span>
+                </div>
+            </div>
         </section>
 
         <section>
@@ -62,6 +85,7 @@
     <footer>
         <p>copyright 2020 | Preston Bateman | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a>
         </p>
+        <p>Photo by Todd Diemer on <a href="https://unsplash.com/photos/2xSTY9JbkkY">Unsplash</a></p>
         <span id="lastUpdated" class="modified"></span>
     </footer>
     <script src="js/scripts.js"></script>

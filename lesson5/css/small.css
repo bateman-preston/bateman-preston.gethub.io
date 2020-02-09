@@ -6,7 +6,6 @@ body{
 header {
     display: flex;
     flex-direction: column;
-    position: relative;
     background-color: #0f0042;
     padding: 20px;
 }
@@ -17,13 +16,6 @@ header div {
     color:white;
     display: flex;
 }
-header div:nth-child(2) {
-    display: none;
-}
-header div:nth-child(3) {
-    justify-content: center;
-}
-
 .subheading {
     color: #0f0042;
 }
@@ -48,7 +40,9 @@ footer {
 footer p {
     color: white;
 }
-
+footer a {
+    color: white;
+}
 nav {
     margin: 0 auto;
     background-color: #0f0042;
@@ -92,4 +86,28 @@ h1, h5 {
 .modified {
     color: white;
     font-size: small;
+}
+#banner {
+    background-color: aliceblue;
+    color: black;
+    padding: 2vw;
+    position: absolute;
+    left: 5vw;
+    top: 1vw;
+    width: 50vw;
+    justify-content: left;
+}
+#banner span{
+    float: left;
+    margin-top: -1.5em;
+    margin-left: -1em;
+    justify-content: left;
+    font-size: 75%;
+}
+.forecast{
+    display: none;
+}
+.activenav .current a{
+    color: #000000;
+    background-color: #ffffff;
 }
