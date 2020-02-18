@@ -39,12 +39,17 @@
     <main>
         <h1 class="subheading">Preston Idaho Forecast</h1>
         <div class="hero">
-            <img src="images/hero.jpg" alt="background scenery picture">
+            <picture class="subhero">
+                <source media="(max-width: 32.5em)" srcset="images/hero_400.png">
+                <source media="(max-width: 60em)" srcset="images/hero_600.png">
+                <img src="images/hero_1100.png" alt="background scenery picture">
+            </picture>
             <div class="stats">
                 <h3>Weather Summary</h3>
-                <p>Temperature: 65&#8457;</p>
+                <p>Temperature: <span id="temp">30</span>&#8457;</p>
                 <p>Humidity: 86%</p>
-                <p>Wind: 23 mph NW</p>
+                <p>Wind Chill: <span id="windchill"> </span>&#8457;</p>
+                <p>Wind: <span id="wind">6</span> mph NW</p>
                 <p>Pressure: 20.46 in.</p>
             </div>
         </div>
@@ -114,6 +119,9 @@
     </footer>
     <script src="js/scripts.js"></script>
     <script src="js/banner.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script> WebFont.load({google: {families: ["Play", "Merriweather"]}}); </script>
 </body>
 
 </html>

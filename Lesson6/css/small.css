@@ -4,8 +4,9 @@ body{
     background-color: #b7afff;
 }
 main {
-    max-width: 98%;
+    max-width: 1100px;
     margin: auto;
+    width: 100;
 }
 header {
     display: flex;
@@ -164,4 +165,10 @@ h1, h2, h5 {
 }
 .second img {
     width: 100%;
+}
+.hero picture.subhero{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
