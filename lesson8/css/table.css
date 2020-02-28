@@ -20,10 +20,11 @@ tfoot {
 
 th {
     font-size: 1.4rem;
+    color: white;
 }
 
-tbody, tr, th {
-   
+h1 {
+    color: black;
 }
 
 tbody tr:nth-child(even) {
