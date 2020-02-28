@@ -31,7 +31,7 @@ tbody tr:nth-child(even) {
     background-color: #e7f0ed;
 }
 
-#under {
+.under {
     color: white;
     background-color: #628ca6;
 }
