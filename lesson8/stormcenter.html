@@ -40,7 +40,7 @@
             <form action="thanks.html">
                 <fieldset>
                     <legend><b>Report A Storm or Weather Event:</b></legend><br>
-                    <label>Full Name*:<br><input name="fullname" type="name" pattern="[A-Za-z A-Za-z]{5,}" required></label><br><br>
+                    <label>Full Name*:<br><input name="fullname" type="text" pattern="[A-Za-z A-Za-z]{5,}" required></label><br><br>
                     <label>Email:<br><input name="email" type="email" placeholder="example@email.com"></label><br><br>
                     <label>Phone Number:<br><input name="phone" type="tel" required></label><br><br>
                     <label>Zip Code*:<br><input name="zip" type="number" required></label><br><br>
@@ -58,7 +58,7 @@
                             <option value="Ice Thick Enought To Walk On"></option>
                         </datalist>
                     </label><br><br>
-                    <label>Storm/Event Severity: <span id="rangeValue">1</span><br><input type="range" id="severity" value="1" min="1" max="10" step="1" list="tickmarks" oninput="document.getElementById('rangeValue').innerHTML= this.value;" ><span id="rangeValue"></span></label><br><br>
+                    <label>Storm/Event Severity: <span id="rangeValue">1</span><br><input type="range" id="severity" value="1" min="1" max="10" step="1" oninput="document.getElementById('rangeValue').innerHTML= this.value;" ></label><br><br>
                     <label>Select Region:<br>
                         <select name="region">
                             <option selected="selected" disabled>Select Region</option>
@@ -68,7 +68,7 @@
                         </select>
                     </label>
                     <br><br><br>
-                    <legend><b><em>Optional:</em></b></legend><br>
+                    <p><b><em>Optional:</em></b></p><br>
                     <label>Fishing Report Location:<br><input name="fishLocation" type="text" maxlength="35"></label>
                     <br><br>
                     <label>Fish Type:<br>
