@@ -58,11 +58,11 @@ header div {
     padding-right: 5px;
 }
 .third div p {
-    margin-block-end: 0em;
-    margin-block-start: 0em;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
 }
 .third div h3{
-    margin-block-start: 0em;
+    margin-block-start: 0px;
 }
 .third div img {
     display: none;
@@ -73,8 +73,8 @@ header div {
     max-width: 100%;
 }
 .hero p {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 .hero img {
     max-width: 100%;
