@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 
-<title>City of Preston Weather</title>
+<title>Working Man Weather Homepage</title>
 
 
 <link rel="stylesheet" href="css/normalize.css">
@@ -24,87 +24,21 @@
     <nav>
         <ul class="activenav">
             <li><a class="dropdown" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="#">Home</a></li>
+            <li class="current"><a href="#">Home</a></li>
             <li><a href="../Lesson6/preston-6.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li class="current"><a href="#">Storm Center</a></li>
+            <li><a href="#">Storm Center</a></li>
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
     
     <main>
-        <h1>Storm Center</h1>
-        <section>
-            <form action="thanks.html">
-                <fieldset>
-                    <legend><b>Report A Storm or Weather Event:</b></legend><br>
-                    <label>Full Name*:<br><input name="fullname" type="text" pattern="[A-Za-z A-Za-z]{5,}" required></label><br><br>
-                    <label>Email:<br><input name="email" type="email" placeholder="example@email.com"></label><br><br>
-                    <label>Phone Number:<br><input name="phone" type="tel" required></label><br><br>
-                    <label>Zip Code*:<br><input name="zip" type="number" required></label><br><br>
-                    <label>Date of Storm/Event:<br><input name="dateStorm" type="date"></label><br><br>
-                    <label>
-                        Storm/Event Type:<br>
-                        <input name="typeStorm" list="typeStorm">
-                        <datalist id="typeStorm">
-                            <option value="Fishing Report"></option>
-                            <option value="Flash Flood"></option>
-                            <option value="Hail"></option>
-                            <option value="Hurricane"></option>
-                            <option value="Thunderstorm"></option>
-                            <option value="Tornado"></option>
-                            <option value="Ice Thick Enought To Walk On"></option>
-                        </datalist>
-                    </label><br><br>
-                    <label>Storm/Event Severity: <span id="rangeValue">1</span><br><input type="range" id="severity" value="1" min="1" max="10" step="1" oninput="document.getElementById('rangeValue').innerHTML= this.value;" ></label><br><br>
-                    <label>Select Region:<br>
-                        <select name="region">
-                            <option selected="selected" disabled>Select Region</option>
-                            <option value="Preston">Preston</option>
-                            <option value="Soda Springs">Soda Springs</option>
-                            <option value="Fish Haven">Fish Haven</option>
-                        </select>
-                    </label>
-                    <br><br><br>
-                    <p><b><em>Optional:</em></b></p><br>
-                    <label>Fishing Report Location:<br><input name="fishLocation" type="text" maxlength="35"></label>
-                    <br><br>
-                    <label>Fish Type:<br>
-                        <select name="fishType">
-                            <option selected="selected" disabled>Select Fish Species</option>
-                            <option value="Brown Trout">Brown Trout</option>
-                            <option value="Rainbow Trout">Rainbow Trout</option>
-                            <option value="Steelhead">Steelhead</option>
-                            <option value="Salmon">Salmon</option>
-                            <option value="Bass">Bass</option>
-                            <option value="Catfish">Catfish</option>
-                            <option value="Walleye">Walleye</option>
-                            <option value="Sturgeon">Sturgeon</option>
-                        </select>
-                    </label>
-                    <br><br>
-                    <label>Type Lure/Bait/Fly:<br><input name="bait" type="text" maxlength="35"></label>
-                    <br><br>
-                    <label>Quality Of Fishing:</label>
-                    <br>
-                    <label><input type="radio" id="Excellent" name="fishQuality" value="Excellent">Excellent</label>
-                    <label><input type="radio" id="Good" name="fishQuality" value="Good">Good</label>
-                    <label><input type="radio" id="Fair" name="fishQuality" value="Fair">Fair</label>
-                    <label><input type="radio" id="Poor" name="fishQuality" value="Poor">Poor</label>
-                    <br><br>
-                    <label>Additional Comments:<br><textarea name="comments" cols="40" ></textarea></label>
-                    <br><br>
-                    <label><input type="submit" value="Send Us Your Report" name="submit"></label>
-                </fieldset>
-            </form>
-        </section>
+        <section class="cards"></section>
     </main>
     <footer>
         <section class="third">
-            <div>
-                <img src="images/map.JPG" alt="Map to the weather office">
-            </div>
+            
             <div>
                 <h3>Working Man Weather Offices</h3>
                 <p>296 N State St.</p>
@@ -119,12 +53,14 @@
             </p>
             
             <span id="today" class="modified"></span>
+            
         </section>
     </footer>
     <script src="js/scripts.js"></script>
     <script src="js/banner.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script> WebFont.load({google: {families: ["Play", "Merriweather"]}}); </script>
+    <script src="js/test.js"></script>
 </body>
 
 </html>
