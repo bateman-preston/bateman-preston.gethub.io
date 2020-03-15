@@ -27,7 +27,7 @@ const requestURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&
                 const icon = day.weather[0].icon;
                 let weatherIcon = document.querySelector(`#icon${index}`);
                 weatherIcon.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
-                console.log(weatherIcon)
+                
                 //don't put anything below index
                 index++;
                 //index goes up once per day at noon to get only 1 result per day
