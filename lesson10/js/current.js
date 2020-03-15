@@ -13,6 +13,14 @@ const requestURL1 = "https://api.openweathermap.org/data/2.5/weather?id=5604473&
         let humToday = document.querySelector('#humidity');
         humToday.innerHTML = humidity;
 
+        const wind = currentWeather.wind.speed;
+        let speedToday = document.querySelector('#wind');
+        speedToday.innerHTML = wind;
+
+        const pressure = currentWeather.main.pressure;
+        let pressureToday = document.querySelector('#pressure');
+        pressureToday.innerHTML = pressure;
+
         console.log(tempToday.innerHTML);
     
         });
