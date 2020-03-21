@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Siteplan for Weather Site Assignment">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Preston Bateman">
+<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+
+<title>City of Preston Weather</title>
+
+<link rel="shortcut icon" href="images/favicon.png">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+
+</head>
+<body>
+    <header>
+        <div id="banner"><span id="close" onclick='document.getElementById("banner").style.display = "none"'> Close</span>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+        </div>
+        <div><img src="images/whitelogo-transparentfixed.png" alt="Workingman Weather Logo" class="logo"></div>
+    </header>
+    <nav>
+        <ul class="activenav">
+            <li><a class="dropdown" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="current"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h1 class="subheading">Preston Idaho Forecast</h1>
+        <div class="hero">
+            <picture class="subhero">
+                <source media="(max-width: 32.5em)" srcset="images/hero_400.png">
+                <source media="(max-width: 60em)" srcset="images/hero_600.png">
+                <img src="images/hero_1100.png" alt="background scenery picture">
+            </picture>
+            <div class="stats">
+                <h3>Weather Summary</h3>
+                <p>Temperature: <span id="temp">30</span>&#8457;</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Chill: <span id="windchill"> </span>&#8457;</p>
+                <p>Wind: <span id="wind">6</span> mph</p>
+                <p>Pressure: <span id="pressure">20</span> in.</p>
+            </div>
+        </div>
+        
+        <section class="first">
+            <h2>Five Day Forecast</h2>
+            <div class="forecast">
+                <div class="col">
+                    <span class="day" id="day0">Tuesday</span>
+                    <img id="icon0" src="images/forecast_icons/thunderstorm.png" alt="thunderstorm icon">
+                    <span class="descript"><span id="desc0">Thunderstorms</span><br><span id="high0">High</span></span>
+                </div>
+                <div class="col">
+                    <span class="day" id="day1">Wednesday</span>
+                    <img id="icon1" src="images/forecast_icons/rainy.png" alt="rainy icon">
+                    <span class="descript"><span id="desc1">Thunderstorms</span><br><span id="high1">High</span></span>
+                </div>
+                <div class="col">
+                    <span class="day" id="day2">Thursday</span>
+                    <img id="icon2" src="images/forecast_icons/partlycloudy.png" alt="partly cloudy icon">
+                    <span class="descript"><span id="desc2">Thunderstorms</span><br><span id="high2">High</span></span>
+                </div>
+                <div class="col">
+                    <span class="day" id="day3">Friday</span>
+                    <img id="icon3" src="images/forecast_icons/sunny.png" alt="sunny icon">
+                    <span class="descript"><span id="desc3">Thunderstorms</span><br><span id="high3">High</span></span>
+                </div>
+                <div class="col">
+                    <span class="day" id="day4">Saturday</span>
+                    <img id="icon4" src="images/forecast_icons/partlycloudy.png" alt="partly cloudy icon">
+                    <span class="descript"><span id="desc4">Thunderstorms</span><br><span id="high4">High</span></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="second">
+            <div>
+                <h2>History of the Founder</h2>
+                <p>
+                    Many people do not know this, but Preston, Idaho is actually named after a living person. This person happens to be me, Preston Bateman. It was named after me after my many great exploits. It all started
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias possimus dolores aspernatur fuga accusantium ut non facere iusto beatae voluptatibus quod debitis voluptatem eos laudantium quibusdam dolor, blanditiis sunt!Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias possimus dolores aspernatur fuga accusantium ut non facere iusto beatae voluptatibus quod debitis voluptatem eos laudantium quibusdam dolor, blanditiis sunt!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias possimus dolores aspernatur fuga accusantium ut non facere iusto beatae voluptatibus quod debitis voluptatem eos laudantium quibusdam dolor, blanditiis sunt!</p>
+            </div>
+            <img src="images/article.jpg" alt="Picture of Idaho">
+        </section>
+
+    </main>
+    <footer>
+        <section class="third">
+            <div>
+                <img src="images/map.JPG" alt="Map to the weather office">
+            </div>
+            <div>
+                <h3>Working Man Weather Offices</h3>
+                <p>296 N State St.</p>
+                <p>Preston, ID 83263</p>
+                <br>
+                <p>801-911-9111</p>
+                <p>contact@workingmanweather.com</p>
+            </div>
+        </section>
+        <section id="endFooter">
+            <p>copyright 2020 | Preston Bateman | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a>
+            </p>
+            <p>Photo by Todd Diemer on <a href="https://unsplash.com/photos/2xSTY9JbkkY">Unsplash</a></p>
+            <p>Weather Info Provided By: <a href="https://openweathermap.org/">Open Weather Map</a></p>
+            <span id="today" class="modified"></span>
+        </section>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/current.js"></script>
+    <script> WebFont.load({google: {families: ["Play", "Merriweather"]}}); </script>
+</body>
+
+</html>
