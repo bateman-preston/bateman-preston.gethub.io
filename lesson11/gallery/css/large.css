@@ -1,0 +1,21 @@
+@media only screen and (min-width: 64em) {
+    header div:nth-child(2) {
+        display: block;
+    }
+    .card {
+        display: inline;
+        max-width: 33%;
+    }
+    .cards {
+        flex-direction: row;
+
+    }
+    .card img{
+        min-width: 80%;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px;
+    }
+}

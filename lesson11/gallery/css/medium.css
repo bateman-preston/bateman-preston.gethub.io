@@ -1,0 +1,95 @@
+@media only screen and (min-width:35em) {
+    .activenav {
+        display: flex;
+    }
+    .activenav li{
+        display: block;
+        flex: 1 1 100%;
+    }
+    .activenav li a {
+        text-align: center;
+    }
+    .activenav li:first-child {
+        display: none;
+    }
+    
+    header {
+        max-width: 100%;
+        margin: auto;
+    }
+    main {
+        max-width: 95%;
+        margin: auto;
+    }
+    .forecast{
+        display:flex;
+        flex-direction: row;
+    }
+    .col{
+      flex: 1 1 100%;  
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      background-color: #0f0042;
+      text-align: center;
+    }
+    .forecast div:last-child {
+        border-right: 1px solid black;
+    }
+    .day{
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid black;
+        background-color: #b7afff;
+        font-weight: 600;
+        font-size: 120%;
+    }
+    .forecast div img{
+        border-radius: 100px;
+        padding: 5px;
+    }
+    .descript{
+        display: block;
+        padding: 0 5px 5px;
+        color: white;
+        font-size: 80%;
+    }
+    .current{
+        color: #000000;
+        background-color: #ffffff;
+    }
+    .first{
+        display: block;
+        background-color: white;
+        margin: 10px auto;
+        padding: 15px;
+    }
+    .hero p {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+    .third div img {
+        display: inline;
+        max-width: 75%;
+    }
+    .third {
+        display: flex;
+        flex-direction: row;
+        color: white;
+    }
+    #banner {
+        padding: 2vw;
+    }
+    .second {
+        flex-direction: row;
+    }
+    .second img {
+        width: 40%;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 15px;
+    }
+    
+} 

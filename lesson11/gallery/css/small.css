@@ -1,0 +1,199 @@
+
+
+body{
+    background-color: #b7afff;
+}
+main {
+    max-width: 1100px;
+    margin: auto;
+    width: 100%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #0f0042;
+    padding: 20px;
+}
+form {
+    background-color: #eae3ff;
+    margin: auto;
+    padding: 1.5em;
+    border: 1px solid #0f0042;
+    width: auto;
+    font-size: 130%;
+}
+label {
+    display: inline;
+    text-align: left;
+}
+header div {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+    color:white;
+    display: flex;
+}
+.subheading {
+    color: #0f0042;
+}
+.logo {
+    max-width: 280px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.card {
+    background-color: #0f0042;
+    border: 2px solid white;
+    text-align: center;
+}
+.first{
+    display: none;
+}
+.second {
+    display: block;
+    background-color: white;
+    margin: 10px auto;
+    padding: 15px;
+}
+.third {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.third div{
+    width: 50%;
+    padding-right: 5px;
+}
+.third div p {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+.third div h3{
+    margin-block-start: 0px;
+}
+.third div img {
+    display: none;
+}
+.hero {
+    position: relative;
+    padding: 0px;
+    max-width: 100%;
+}
+.hero p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.hero img {
+    max-width: 100%;
+}
+.stats {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 1rem;
+    box-shadow: 0 0 20px black;
+    opacity: .75;
+    margin: 0pt;
+}
+footer {
+    background-color: #0f0042;
+    display: block;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+}
+footer p {
+    color: white;
+}
+footer a {
+    color: white;
+}
+nav {
+    margin: 0 auto;
+    background-color: #0f0042;
+}
+.activenav {
+    list-style-type: none;
+    padding: 0;
+}
+.activenav li:first-child{
+    display:block;
+}
+.activenav li {
+      display:none;
+      background-color: #0f0042;
+}
+.activenav a{
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.responding li {
+    display: block;
+    background-color: #0f0042;
+}
+.responding li:first-child {
+    background-color: white;
+}
+.responding li:first-child a{
+    color:black;
+}
+h1, h2, h5 {
+    font-family: "Play", sans-serif;
+}
+.modified {
+    color: white;
+    font-size: small;
+}
+#banner {
+    background-color: aliceblue;
+    color: black;
+    padding: 5vw;
+    position: absolute;
+    left: 5vw;
+    top: 1vw;
+    width: 80vw;
+    justify-content: left;
+}
+#banner span{
+    float: left;
+    margin-top: -1.5em;
+    margin-left: -.5em;
+    justify-content: left;
+    font-size: 75%;
+}
+.activenav .current a{
+    color: #000000;
+    background-color: #ffffff;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+}
+.gallery img{
+    width: 100%;
+}
+.gallery img:hover{
+    box-shadow: 0 0 30px black;
+}
+figcaption {
+    background-color: white;
+    padding: 15px;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    font-size: medium;
+    text-align: center;
+}

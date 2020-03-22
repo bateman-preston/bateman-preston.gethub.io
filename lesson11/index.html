@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Homepage for Weather Site">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Preston Bateman">
+<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+
+<title>Working Man Weather Homepage</title>
+
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+
+</head>
+<body>
+    <header>
+        <div><img src="images/whitelogo-transparentfixed.png" alt="Workingman Weather Logo" class="logo"></div>
+    </header>
+    <nav>
+        <ul class="activenav">
+            <li><a class="dropdown" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="preston/preston.html">Preston</a></li>
+            <li><a href="sodasprings/sodasprings.html">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter/stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="cards"></section>
+    </main>
+    <footer>
+        <section class="third">
+            
+            <div>
+                <h3>Working Man Weather Offices</h3>
+                <p>296 N State St.</p>
+                <p>Preston, ID 83263</p>
+                <br>
+                <p>801-911-9111</p>
+                <p>contact@workingmanweather.com</p>
+            </div>
+        </section>
+        <section id="endFooter">
+            <p>copyright 2020 | Preston Bateman | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a>
+            </p>
+            
+            <span id="today" class="modified"></span>
+            
+        </section>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script> WebFont.load({google: {families: ["Play", "Merriweather"]}}); </script>
+    <script src="js/test.js"></script>
+</body>
+
+</html>
