@@ -1,0 +1,17 @@
+.logo {
+    display: inline;
+}
+.section2 {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 10px;
+    justify-content: space-evenly;
+
+    img {
+        max-width: 30%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

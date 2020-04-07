@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|PT+Sans&display=swap');
+
+body{
+    background-color: $lightGreen;
+}
+
+h1 {
+    color: white;
+    font-family: $bangers;
+    font-size: 45px;
+    letter-spacing: 0.07em;
+}
+
+h3 {
+    font-family: $bangers;
+    font-size: 30px;
+    margin-bottom: 0em;
+    letter-spacing: 0.07em;
+}
+
+h4 {
+    font-family: $PT;
+    font-size: 1.45em;
+}
+
+p {
+    font-family: $PT;
+}
+
+a:visited{
+    color:$orange;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    background-color: $darkGreen;
+    align-content: center;
+}
+header div {
+    margin: 10px;
+    align-items: center;
+}
+header div:first-child{
+    width: 20%;
+}
+header .logo {
+    max-width: 150px;
+    padding: 10px;
+}
+header div:nth-child(2){
+    width: 80%;
+}
+header div:nth-child(3){
+    width: 20%;
+}
+.logo {
+    display: none;
+}
+.date{
+    display: none;
+}
+
+nav {
+    margin: 10px 0;
+    background-color: $brown;
+    font-family: 'PT Sans', sans-serif;
+}
+nav a {
+    padding: 0 10px;
+    font-size: 24px;
+    line-height: 60px;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.activenav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+.activenav li {
+    display: none;
+    background-color: $brown;
+    color: white;
+}
+.activenav li:first-child{
+    display: block;
+}
+.activenav li:hover {
+    background-color: $darkGreen;
+    color: black;
+}
+.activenav ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    list-style-type: none;
+}
+.activenav li:hover > ul{
+    display: inherit;
+}
+.activenav ul li {
+    width: 300px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.responding li {
+    display: block;
+    background-color: $brown;
+}
+.responding li:hover{
+    background-color: $darkGreen;
+    color: black;
+}
+.responding li:first-child{
+    background-color: $darkGreen;
+}
+.responding li:first-child a{
+    color: black;
+}
+
+
+
+
+/*This is the footer sections*/
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: $darkGreen;
+    color: white;
+    margin-top: 15px;
+    font-size: small;
+}
+footer div:first-child {
+    width: 30%;
+    margin: 5px;
+}
+footer div:nth-child(2){
+    width: 40%;
+}
+footer div:nth-child(3){
+    width: 30%;
+}

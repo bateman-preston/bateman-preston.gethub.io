@@ -1,0 +1,44 @@
+.activenav{
+    display: flex;
+}
+.activenav li:first-child {
+    display: none;
+}
+.activenav li {
+display: block;
+background-color: $brown;
+}
+.activenav a {
+    display: block;
+    padding: 0 10px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 60px;
+    text-decoration: none;
+}
+.activenav a:hover {
+    background-color: $darkGreen;
+    color: black;
+}
+.activenav ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+.activenav li:hover > ul{
+    display: inherit;
+}
+.activenav ul li {
+    width: 300px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    color: white;   
+}    
+.date span{
+    height: 30px;
+}
