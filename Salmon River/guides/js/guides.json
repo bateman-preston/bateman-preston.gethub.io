@@ -11,7 +11,7 @@
     },
     {
         "name" : "Trebor",
-        "imageurl" : "../images/trebor.jpg",
+        "imageurl" : "trebor1.jpg",
         "age" : "33",
         "cert" : "Class 3",
         "yearsEXP" : "8",
