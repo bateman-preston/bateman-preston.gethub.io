@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Pacifico&display=swap');
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+section {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: solid black 1px;
+    background-color: #487BA0;
+}
+img {
+    width: 40%;
+    box-shadow: 0 0 50px black;
+}
+h1, h2 {
+    color: #1E2233;
+    font-family: 'Pacifico', cursive;
+}
+
+h3, h4 {
+    color: #1B2C47;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+@media(min-width: 37em){
+    section {
+        width: 49%;
+        min-height: 525px;
+    }
+    img {
+        width: 60%;
+    }
+}
+
+
+@media(min-width: 60em){
+    section {
+        width: 24%;
+    }
+    img {
+        width: 60%;
+    }
+}
