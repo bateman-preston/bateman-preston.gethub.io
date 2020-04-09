@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="eng-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Salmon River Adventures Homepage">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Preston Bateman">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <title>Salmon River Adventures Homepage</title>
+    </head>
+    <body>
+        <header>
+            <!--This is the logo-->
+            <div class="logo">
+                <img src="../images/logosvg.svg" alt="Salmon River Adventures logo" class="logo">
+            </div>
+            <!--H1 tag with title-->
+            <div>
+                <h1>Salmon River Adventures</h1>
+            </div>
+            <!--This is the time date with update using JS-->
+            <div class="date">
+                <br><br><br>
+                <span id="today" class="modified"></span>
+            </div>
+        </header>
+        <nav>
+            <ul class="activenav">
+                <li><a class="dropdown" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../trips/trips.html">Trips</a></li>
+                <li><a href="../guides/guides.html">Our Guides</a></li>
+                <li><a href="book.html">Book Your Trip</a></li>
+                <li><a href="../contact/contact.html">Contact Page</a></li>
+            </ul>
+        </nav>
+        <!--Company Summary-->
+        <main>
+            <section>
+                <form id="reserve" action="thanks.html">
+                    <fieldset>
+                        <h2>Select Your Trip Type</h2>
+                        <label><input type="radio" id="adventure" name="triptype" value="advenute">Adventurer Trip- $30 per person</label>
+                        <p>Our Adventurer Trip is fun for the whole family. Enjoy a safe and fun filled white water rafting experience that is guaranteed to provide thrills for the whole family. Our trips are all inclusive and you can look forward to enjoying a continental breakfast, followed by a 2 hour long rafting excursion experiencing the best of Idahos white water. Afterwards, we provide a cookout meal of hamburgers and hotdogs, chips, and drinks.</p><br>
+                        <label><input type="radio" id="outdoor" name="triptype" value="outdoors">Outdoorsman Trip- $50 per person</label>
+                        <p>The Outdoorsman Trip provides the best experience for those wishing to connect with their inner mountain man. During this trip you will enjoy such activities as rafting, fishing, shotgun shooting, and hatchet throwing. Our trained staff will be there to give expert advice, show you the best fishing spots, and make sure you have a great time both on and off the river. You must be at least 16 years old and minors must be accompanied by an adult.</p><br>
+                        <label><input type="radio" id="extreme" name="triptype" value="extreme">Extreme Adventure Trip- $40 per person</label>
+                        <p><b>Warning:</b> The Extreme Adventure Trip is not for the casual rafter. On this 4 hour adventure you will get to experience some of the largest and most technical rapids that Idaho has to offer. During this trip you encounter several class 4 rapids and even a small waterfall. All participants must be at least 18 years old and in good health and shape.</p>
+                    </fieldset>
+                </form>
+            </section> 
+            <section>
+                <form id="reserve" action="thanks.html">
+                    <fieldset>
+                        <h2>Group Details</h2>
+                        <label>Full Name* (Group Contact):<br><input name="fullname" type="text" pattern="[A-Za-z A-Za-z]{5,}" required></label><br><br>
+                        <label>Contact's Phone Number*:<br><input name="phone" type="tel" required></label><br><br>
+                        <label>Contact's Email*:<br><input name="email" type="email" placeholder="example@email.com" required></label><br><br>
+                        <label>Size of Group:<br>
+                            <select id="participants" name="groupsize">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </label><br><br>
+                        <label>Is everyone over 18 year of age?<br>(Answer only if selected Outdoorsman/Extreme Trip)</label><br>
+                        <label><input type="radio" id="ageyes" name="adults" value="yes">Yes</label>
+                        <label><input type="radio" id="outdoor" name="adults" value="no">No</label><br><br>
+                        <label>Date of Trip:<br><input name="dateTrip" type="date"></label><br><br>
+                        <label>Additional Comments/Questions:<br><textarea name="comments" cols="40" ></textarea></label>
+                        <br><br>
+                        <label><input type="submit" value="Reserve Your Trip" name="submit"></label>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <p>copyright 2020 | Preston Bateman | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a></p>
+                <p>Weather Info Provided By: <a href="https://openweathermap.org/">Open Weather Map</a></p>
+            </div>
+            <div>
+
+            </div>
+            <div>
+                <p>Salmon River Adventures<br>
+                1127 S Main St.<br>
+                Riggins, ID</p>
+            </div>
+        </footer>
+        <script src="js/scripts.js"></script>
+        <script src="js/guides.js"></script>
+    </body>
+</html>

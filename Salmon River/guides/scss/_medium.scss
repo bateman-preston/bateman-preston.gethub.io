@@ -42,19 +42,3 @@ background-color: $brown;
 .date span{
     height: 30px;
 }
-
-main {
-    display: flex;
-    flex-direction: row;
-
-    section{
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        background-color: $darkGreen;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 10px 10px 10px 10px;
-    }
-}
-

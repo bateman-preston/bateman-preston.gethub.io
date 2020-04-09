@@ -1,0 +1,31 @@
+{
+    "person" : [
+    {
+        "name" : "Ben",    
+        "imageurl" : "../images/ben.jpg",
+        "age" : "32",
+        "cert" : "Class 3",
+        "yearsEXP" : "12",
+        "email" : "ben@salmonrivadv.com",
+        "bio" : "Ben has been rafting for most of his life. He said he fell in love with it when his parents took him on a rafting trip on the Colorado river in the Grand Canyon when he was 16. He has been rafting on some of the most challenging rivers since then. Known for singing opera while tackling the more difficult rapids, Ben is an expert at helping people relax in high stress situations. Ben handles most of our Extreme Adventure Trips"
+    },
+    {
+        "name" : "Trebor",
+        "imageurl" : "../images/trebor.jpg",
+        "age" : "33",
+        "cert" : "Class 3",
+        "yearsEXP" : "8",
+        "email" : "trebor@salmonrivadv.com",
+        "bio" : "Trebor is one of the most highly skilled people at Salmon River Adventures. Trebor is a competitive skeet shooter, an experienced fly fisher, and one of the best campfire cooks there is. Known to forage for fresh herbs and wild onions and potatos, he is known as the Redneck Chef Ramsay. Trebor handles all our Outdoorsman Trips and a few Extreme Adventure Trips"
+    },
+    {
+        "name" : "Clark",
+        "imageurl" : "../images/clark.jpg",
+        "age" : "35",
+        "cert" : "Class 2",
+        "yearsEXP" : "5",
+        "email" : "clark@salmonrivadv.com",
+        "bio" : "Clark is one of our most amiable guides. As well as being well versed in most outdoor skills, Clark is also a connoiseur of jokes. He can be heard leading rafting groups in a rousing chorus of the song Sweet Caroline. Responsible for our Adventurer Trips, he is a master at making it a fun time for the whole family."
+    }
+    ]
+}

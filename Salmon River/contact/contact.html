@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="eng-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Salmon River Adventures Homepage">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Preston Bateman">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <title>Salmon River Adventures Homepage</title>
+    </head>
+    <body>
+        <header>
+            <!--This is the logo-->
+            <div class="logo">
+                <img src="../images/logosvg.svg" alt="Salmon River Adventures logo" class="logo">
+            </div>
+            <!--H1 tag with title-->
+            <div>
+                <h1>Salmon River Adventures</h1>
+            </div>
+            <!--This is the time date with update using JS-->
+            <div class="date">
+                <br><br><br>
+                <span id="today" class="modified"></span>
+            </div>
+        </header>
+        <nav>
+            <ul class="activenav">
+                <li><a class="dropdown" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../trips/trips.html">Trips</a></li>
+                <li><a href="../guides/guides.html">Our Guides</a></li>
+                <li><a href="../reservations/book.html">Book Your Trip</a></li>
+                <li><a href="../contact/contact.html">Contact Page</a></li>
+            </ul>
+        </nav>
+        <!--Company Summary-->
+        <main>
+            <section>
+                <div>
+                    <h2>Stop By Our Office:</h2>
+                    <p><b>Salmon River Adventures</b><br>
+                    1127 S Main St.<br>Riggins, ID</p>
+                    <br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.689315126667!2d-116.32211438457156!3d45.41560427910043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c56c1512fddf%3A0x407c0aae7488dd90!2s1127%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1586459217175!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div>
+                    <h2>Send Us A Message</h2>
+                    <form action="contact.html">
+                        <fieldset>
+                            <label>Full Name*:<br><input name="fullname" type="text" pattern="[A-Za-z A-Za-z]{5,}" required></label><br><br>
+                            <label>Your Email*:<br><input name="email" type="email" placeholder="example@email.com" required></label><br><br>
+                            <label>Subject*:<br><input name="Subject" type="text" pattern="[A-Za-z A-Za-z]{5,}" required></label><br><br>
+                            <label>Type Your Message:<br><textarea name="message" cols="40" rows="15"></textarea></label>
+                            <br><br>
+                            <label><input type="submit" value="Send" name="submit"></label>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <p>copyright 2020 | Preston Bateman | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a></p>
+                <p>Weather Info Provided By: <a href="https://openweathermap.org/">Open Weather Map</a></p>
+            </div>
+            <div>
+
+            </div>
+            <div>
+                <p>Salmon River Adventures<br>
+                1127 S Main St.<br>
+                Riggins, ID</p>
+            </div>
+        </footer>
+        <script src="js/scripts.js"></script>
+        <script src="js/guides.js"></script>
+    </body>
+</html>

@@ -43,18 +43,13 @@ background-color: $brown;
     height: 30px;
 }
 
-main {
+section {
     display: flex;
     flex-direction: row;
+    width: 95%;
+    background-color: $darkGreen;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin-top: 5px;
 
-    section{
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        background-color: $darkGreen;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 10px 10px 10px 10px;
-    }
 }
-
