@@ -124,7 +124,7 @@ main article h2 a:active {
 }
 
 main article img {
-    max-width: 50%;
+    width: 50%;
 }
 
 @media only screen and (min-width: 768px) {
